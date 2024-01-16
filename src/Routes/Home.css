@@ -1,0 +1,64 @@
+.App {
+  min-height: 100vh;
+}
+
+.stackedContent {
+  display: flex;
+  flex-direction: column;
+}
+  
+  
+.container {
+  display: flex;
+  flex-direction: row;
+}
+  
+.leftColumn{
+  min-height: 100vh;
+  flex: 1;
+}
+  
+.rightColumn{
+  min-height: 100vh;
+  flex: 3;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.imageContainer {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.contentTitle {
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+}
+
+.contentText {
+  padding-left: 20px;
+  padding-right: 35px;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+
+.image {
+  padding-top: 40px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 700px;
+}
+
+.withBottomPadding {
+  margin-bottom: 400px;
+}

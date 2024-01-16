@@ -1,0 +1,31 @@
+.title{
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 40px;
+}
+
+.tabs {
+  font-size: 15px;
+}
+
+.navItem:hover{
+  text-decoration: underline;
+}
+
+.layout .tabs{
+  display: flex;
+  flex-direction: column;
+}
+
+.navItem{
+  text-decoration: none;
+  color: #000;
+  padding-bottom: 8px;
+}
